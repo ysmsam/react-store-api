@@ -1,0 +1,12 @@
+{
+    "license": "MIT",
+    "dependencies": {
+        "json-server": "^0.17.0",
+        "jsonwebtoken": "^8.5.1",
+        "nodemon": "^2.0.16"
+    },
+    "scripts": {
+        "start": "nodemon server.js",
+        "server": "json-server --watch db.json --port 3006"
+    }
+}
